@@ -1,7 +1,7 @@
 $ErrorActionPreference = "Stop"
 Import-Module Hyper-V
 
-$VMName = "WindowsServer1709"
+$VMName = "WindowsServer1709-Containers"
 $ISO = "C:\images\en_windows_server_version_1709_x64_dvd_100090904.iso"
 $SwitchName = "External" # Substitute with the name of your VMSwitch.
 $CPUCount = 4
